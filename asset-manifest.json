@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-pdf-editor/static/css/main.b89ae59f.css",
+    "main.js": "/react-pdf-editor/static/js/main.5e133484.js",
+    "index.html": "/react-pdf-editor/index.html",
+    "main.b89ae59f.css.map": "/react-pdf-editor/static/css/main.b89ae59f.css.map",
+    "main.5e133484.js.map": "/react-pdf-editor/static/js/main.5e133484.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b89ae59f.css",
+    "static/js/main.5e133484.js"
+  ]
+}
