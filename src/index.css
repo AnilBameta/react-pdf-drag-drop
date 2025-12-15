@@ -1,0 +1,52 @@
+.label-upload {
+  display: inline-block;
+  padding: 10px 14px;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid #efefef;
+  cursor: pointer;
+  text-align: center;
+}
+
+.right-container {
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  gap: 10%;
+  span {
+    margin-top: 30px;
+  }
+  input {
+    margin-top: 5px !important;
+    padding: 5px;
+  }
+  button:disabled {
+    background-color: light-dark(rgba(239, 239, 239, 0.3), rgba(19, 1, 1, 0.3));
+    color: light-dark(rgba(16, 16, 16, 0.3), rgba(255, 255, 255, 0.3));
+    border-color: light-dark(
+      rgba(118, 118, 118, 0.3),
+      rgba(195, 195, 195, 0.3)
+    );
+  }
+}
+
+.save-button {
+  margin-top: 50px !important;
+  padding: 10px;
+  border-radius: 5px;
+  background: dodgerblue;
+  color: white;
+  border: dodgerblue;
+  cursor: pointer;
+}
+
+.empty-container {
+  padding: 10%;
+  border: 1px solid #efefef;
+  height: -webkit-fill-available;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
